@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QTrobot - Virtual Robot</title>
+  <script defer src="./script.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div>
+    <select id="storySelector">
+      <option>Sélectionner une histoire...</option>
+      <option value="Petit_Loup">Petit Loup</option>
+    </select>
+  </div>
+
+  <div id="qtrobot-container">
+    <div id="qt-frame-wrapper">
+      <img id="qt-head" src="./../res/img/QT-body.png" alt="QTrobot">
+      <img id="qt-face" src="./../res/img/_QT-faces_neutral_state_blinking.gif" alt="QTrobot face">
+    </div>
+  </div>
+
+  <div id="story-box">
+    <div id="story-container"></div>
+    <div id="buttons">
+      <button id="play-button">▶</button>
+      <button id="pause-button">⏸</button>
+      <button id="restart-button">restart</button>
+    </div>
+  </div>
+</body>
+</html>
